@@ -1,0 +1,156 @@
+* {
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    background-color: #121211;
+    font-family: 'Pixelify Sans';
+    padding: 20px;
+}
+
+h1{
+    color: #F0EBE3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.searchBar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #F0EBE3;
+    border-radius: 50px;
+    background-color: transparent;
+    width: 500px;
+}
+
+.searchBar:hover {
+    background-color: #3a3938;
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    gap: 20px;
+    outline: none;
+    color: #F0EBE3;
+    width: 400px;
+}
+
+.form {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #2F2E2D;
+    border-radius: 10px;
+    border: 1px dashed #F0EBE3;
+    padding: 10px;
+    gap: 20px;
+    /* cursor: pointer; */
+    color: #F0EBE3;
+    width: 300px;
+}
+
+input:hover {
+    background-color: #3a3938;
+}
+
+.table-container{
+    overflow-y: scroll;
+    max-height: 455px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th{
+    border: 1px solid #F0EBE3;
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: center;
+    color: #121211;
+    background-color: #F0EBE3;
+}
+
+td {
+    border: 1px solid #F0EBE3;
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: left;
+    color: #F0EBE3;
+}
+
+thead th:nth-child(2),
+thead th:nth-child(3),
+thead th:nth-child(4) {
+  width: 25%;
+  height: fit-content;
+}
+
+thead th:nth-child(1) {
+    width: 15%;
+    height: fit-content;
+  }
+
+thead th:nth-child(5) {
+  width: 10%;
+  height: fit-content;
+}
+
+button {
+    text-align: center;
+}
+
+.addBtn{
+    background-color: #F0EBE3;
+    color: #121211;
+    border: 1px solid #121211;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.addBtn:hover{
+    background-color: #121211;
+    color: #F0EBE3;
+    border: 1px solid #F0EBE3;
+}
+
+.sortBtn{
+    background-color: #F0EBE3;
+    color: #121211;
+    border: 1px solid #121211;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.sortBtn:hover{
+    background-color: #121211;
+    color: #F0EBE3;
+    border: 1px solid #F0EBE3;
+}
+
+.textCount{
+    color: #F0EBE3;
+}
+
+.footer-text {
+    margin-top: 100px;
+    text-align: center;
+    color: #8f8d8b;
+}
+
+.footer-text:hover {
+    color: #F0EBE3;
+}
