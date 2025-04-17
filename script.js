@@ -9,3 +9,7 @@ function openWeb02() {
 function openWeb03() {
     window.open("https://thuolala.github.io/learn-note/", "_blank");
 }
+
+function openWeb04() {
+    window.open("https://thuolala.github.io/my-coffee/", "_blank");
+}
