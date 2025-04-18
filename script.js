@@ -14,6 +14,10 @@ function openWeb04() {
     window.open("https://thuolala.github.io/my-coffee/", "_blank");
 }
 
+function openWeb05() {
+    window.open("https://thuolala.github.io/my-clock/", "_blank");
+}
+
 let player;
 let isPlaying = true;
 
