@@ -18,11 +18,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
-    <h1>My Websites</h1>
+    <div id="player" style="display: none;"></div>
+    <div class="volume-container" onclick="toggleMusic()">
+        <i id="volume-on" class="fa-solid fa-volume-high"></i>
+        <i id="volume-off" class="fa-solid fa-volume-xmark" style="display: none;"></i>
+    </div>  
+
+    <h1>˗ˏˋ ★ ˎˊ˗ My Websites ˗ˏˋ ★ ˎˊ˗</h1>
 
     <div class="container-fluid">
         <div class="row img-con">
@@ -44,6 +51,14 @@
             </div>            
         </div>
     </div>
+
+    <footer>
+        <p class="footer-text">Copyright @2025 | Art & Develop by <span style="font-weight: bold;">A.T.</span></p>
+        <a class="footer-text" style="font-weight: bold; text-align: center; margin-bottom: 20px;"
+            href="https://thuolala.github.io/my-website/" target="_blank">
+            ˗ˏˋ ★ ˎˊ˗ Other Stuff ˗ˏˋ ★ ˎˊ˗
+        </a>
+    </footer>
 
 </body>
 
