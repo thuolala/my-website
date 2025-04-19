@@ -53,3 +53,26 @@ function toggleMusic() {
     isPlaying = !isPlaying;
 }
 
+function spawnSparkles(count) {
+    const sparkleBg = document.getElementById('sparkle-bg');
+
+    for (let i = 0; i < count; i++) {
+        const sparkle = document.createElement('img');
+        sparkle.src = './img/flag.png';
+        sparkle.className = 'sparkle';
+
+        // Random position
+        sparkle.style.left = Math.random() * 100 + 'vw';
+        sparkle.style.top = Math.random() * 100 + 'vh';
+
+        // Random animation delay
+        // sparkle.style.animationDelay = (Math.random() * 10) + 's';
+
+        sparkleBg.appendChild(sparkle);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    spawnSparkles(50);
+});
+
